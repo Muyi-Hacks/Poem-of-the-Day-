@@ -1,7 +1,7 @@
 # Poem-of-the-Day-
 This project contains two programs that demonstrate different approaches to client-server communication in Java:
 
-1. Poem of the Day (PoD) Server
+ Poem of the Day (PoD) Server
 A simple text-based server that shares poems with clients.
 The server:
 -Loads poems from a text file at startup.
@@ -12,8 +12,3 @@ The server:
 -Ends the session and waits for the next client.
 -The protocol for this server is defined as a finite-state machine (FSM) for clarity and structure.
 
-2. Java RMI Prime Number Finder
--A client/server system built with Java RMI (Remote Method Invocation).
--The client sends a number range to the server.
--The server calculates and returns the largest prime number within that range.
--Both the server and client run as command-line programs.
